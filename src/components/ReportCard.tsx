@@ -6,6 +6,7 @@ interface ReportCardProps {
         title: string;
         version: string;
         date: string;
+        category?: string;
         abstract: string;
         coverUrl: string;
         pdfUrl: string;
@@ -29,7 +30,7 @@ export function ReportCard({ report, onClick }: ReportCardProps) {
                     }}
                 />
                 <div className="absolute top-4 left-4 bg-tsinghua/90 backdrop-blur-sm text-white text-xs font-semibold px-3 py-1 rounded-full shadow-sm">
-                    v{report.version}
+                    {report.category || '未分类'} • v{report.version}
                 </div>
             </div>
             <div className="p-6 flex flex-col flex-grow">

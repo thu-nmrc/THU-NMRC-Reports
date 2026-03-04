@@ -5,6 +5,7 @@ import { ReportModal } from './components/ReportModal';
 function App() {
   const [reports, setReports] = useState<any[]>([]);
   const [selectedReport, setSelectedReport] = useState<any | null>(null);
+  const [activeCategory, setActiveCategory] = useState<string>('全部');
 
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}reports_config.json`)
@@ -12,6 +13,9 @@ function App() {
       .then(data => setReports(data))
       .catch(err => console.error('Failed to load reports:', err));
   }, []);
+
+  const categories = ['全部', ...Array.from(new Set(reports.map(r => r.category || '未分类')))];
+  const filteredReports = activeCategory === '全部' ? reports : reports.filter(r => (r.category || '未分类') === activeCategory);
 
   return (
     <div className="min-h-screen bg-slate-50 selection:bg-tsinghua selection:text-white pb-20">
@@ -39,9 +43,9 @@ function App() {
         <div className="absolute inset-y-0 right-1/2 -z-10 mr-16 w-[200%] origin-bottom-left skew-x-[-30deg] bg-white shadow-xl shadow-tsinghua/10 ring-1 ring-slate-50 sm:mr-28 lg:mr-0 xl:mr-16 xl:origin-center" />
         <div className="mx-auto max-w-7xl px-6 lg:px-8 relative z-10">
           <div className="mx-auto max-w-2xl lg:mx-0">
-            <h2 className="text-4xl font-extrabold tracking-tight text-slate-900 sm:text-6xl mb-6 drop-shadow-sm">AIGC 发展研究系列报告</h2>
+            <h2 className="text-4xl font-extrabold tracking-tight text-slate-900 sm:text-5xl mb-6 drop-shadow-sm leading-tight">清新研究团队·清华新闻学院前沿研究报告文库</h2>
             <p className="text-lg leading-8 text-slate-700 font-medium">
-              聚焦生成式人工智能的前沿趋势、产业应用与社会应对机制。本站收录清华大学新闻与新媒体研究中心公开发布的所有 AIGC 成果与完整研究报告，供全球研究者免费阅览与下载。
+              聚焦前沿科技、媒介演进、数字治理与社会变迁。本站收录沈阳教授团队及清华新闻学院公开发布的各类别深度研究成果，供全球研究者免费沉浸式阅览与下载。
             </p>
           </div>
         </div>
@@ -49,9 +53,26 @@ function App() {
 
       {/* Main Content */}
       <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16">
-        <div className="flex items-center justify-between mb-10">
-          <h2 className="text-3xl font-bold tracking-tight text-slate-900 border-l-4 border-tsinghua pl-4">研究报告文库</h2>
-          <span className="text-sm font-medium text-slate-500 bg-slate-100 px-3 py-1 rounded-full">共收录 {reports.length} 份</span>
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-6 mb-10">
+          <div className="flex items-center">
+            <h2 className="text-3xl font-bold tracking-tight text-slate-900 border-l-4 border-tsinghua pl-4">全部报告</h2>
+            <span className="ml-4 text-sm font-medium text-slate-500 bg-slate-100 px-3 py-1 rounded-full">共 {filteredReports.length} 份</span>
+          </div>
+
+          <div className="flex flex-wrap gap-2">
+            {categories.map((cat, idx) => (
+              <button
+                key={idx}
+                onClick={() => setActiveCategory(cat as string)}
+                className={`px-4 py-2 rounded-full text-sm font-semibold transition-all ${activeCategory === cat
+                    ? 'bg-tsinghua text-white shadow-md'
+                    : 'bg-white text-slate-600 border border-slate-200 hover:border-tsinghua hover:text-tsinghua'
+                  }`}
+              >
+                {cat as string}
+              </button>
+            ))}
+          </div>
         </div>
 
         {reports.length === 0 ? (
@@ -59,9 +80,13 @@ function App() {
             <div className="inline-block animate-spin w-8 h-8 rounded-full border-4 border-tsinghua border-t-transparent mb-4"></div>
             <p className="text-slate-500 font-medium">加载配置中...</p>
           </div>
+        ) : filteredReports.length === 0 ? (
+          <div className="text-center py-20">
+            <p className="text-slate-500 font-medium">分类下暂无报告</p>
+          </div>
         ) : (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-            {reports.map((report) => (
+            {filteredReports.map((report) => (
               <ReportCard
                 key={report.id}
                 report={report}
