@@ -39,13 +39,17 @@ function App() {
 
       {/* Hero */}
       <div className="relative overflow-hidden bg-slate-900 py-24 sm:py-32">
-        <div className="absolute inset-0 bg-tsinghua/20 mix-blend-multiply" />
-        <div className="absolute inset-y-0 right-1/2 -z-10 mr-16 w-[200%] origin-bottom-left skew-x-[-30deg] bg-white shadow-xl shadow-tsinghua/10 ring-1 ring-slate-50 sm:mr-28 lg:mr-0 xl:mr-16 xl:origin-center" />
+        <div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-tsinghua/80 to-slate-900 opacity-90" />
         <div className="mx-auto max-w-7xl px-6 lg:px-8 relative z-10">
-          <div className="mx-auto max-w-2xl lg:mx-0">
-            <h2 className="text-4xl font-extrabold tracking-tight text-slate-900 sm:text-5xl mb-6 drop-shadow-sm leading-tight">清新研究团队·清华新闻学院前沿研究报告文库</h2>
-            <p className="text-lg leading-8 text-slate-700 font-medium">
+          <div className="mx-auto max-w-3xl lg:mx-0">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-white mb-6 drop-shadow-md leading-tight">
+              清新研究团队·清华新闻学院前沿研究报告文库
+            </h2>
+            <p className="text-lg sm:text-xl leading-8 text-slate-200 font-medium mb-4">
               聚焦前沿科技、媒介演进、数字治理与社会变迁。本站收录沈阳教授团队及清华新闻学院公开发布的各类别深度研究成果，供全球研究者免费沉浸式阅览与下载。
+            </p>
+            <p className="text-sm sm:text-base leading-7 text-slate-400 font-normal">
+              Focusing on cutting-edge technology, media evolution, digital governance, and social transformation. This digital library collects diverse in-depth research reports published by Professor Shen Yang's team and the Tsinghua School of Journalism and Communication, freely accessible for global researchers.
             </p>
           </div>
         </div>
@@ -65,8 +69,8 @@ function App() {
                 key={idx}
                 onClick={() => setActiveCategory(cat as string)}
                 className={`px-4 py-2 rounded-full text-sm font-semibold transition-all ${activeCategory === cat
-                    ? 'bg-tsinghua text-white shadow-md'
-                    : 'bg-white text-slate-600 border border-slate-200 hover:border-tsinghua hover:text-tsinghua'
+                  ? 'bg-tsinghua text-white shadow-md'
+                  : 'bg-white text-slate-600 border border-slate-200 hover:border-tsinghua hover:text-tsinghua'
                   }`}
               >
                 {cat as string}
