@@ -5,7 +5,7 @@
         "version": "3.11",
         "date": "2026-03",
         "category": "OpenClaw",
-        "abstract": "English update briefing on OpenClaw 3.11, summarizing key improvements, workflow updates, and practical adoption guidance.",
+        "abstract": "本报告系统梳理 OpenClaw 3.11 的核心更新，包括架构能力增强、工作流优化与关键功能变化，并结合典型场景给出实践参考。",
         "coverUrl": "https://placehold.co/800x600/660874/FFFFFF/png?text=OpenClaw+3.11",
         "pdfUrl": "./OpenClaw/OpenClaw 3.11 Update Report (English).pdf"
     },
