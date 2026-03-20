@@ -1,5 +1,15 @@
 [
     {
+        "id": "token-economics-panorama-report-english-edition-ai-agent-2026-03",
+        "title": "Token Economics Panorama Report (English Edition)",
+        "version": "1.0",
+        "date": "2026-03",
+        "category": "AI Agent",
+        "abstract": "This report presents a panoramic analysis of token economics in the AI era, spanning global compute infrastructure, inference economics, China’s compute industry, labor-market and organizational transformation, capital-market logic, and geopolitical implications. It highlights key trends such as sharply falling inference costs alongside rising total spending, increasing K-shaped polarization, and the growing coupling between compute power and energy systems.",
+        "coverUrl": "https://placehold.co/800x600/660874/FFFFFF/png?text=AI+Agent+1.0",
+        "pdfUrl": "./AI Agent/0319 Token Economics Panorama Report (English).pdf"
+    },
+    {
         "id": "openclaw-shrimp-farming-panorama-report-english-edition-openclaw",
         "title": "OpenClaw Shrimp Farming Panorama Report (English Edition)",
         "version": "1.0",
