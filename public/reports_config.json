@@ -1,122 +1,132 @@
 [
-  {
-    "id": "openclaw-domestication-or-evolution-english-openclaw-2026-03-2",
-    "title": "OpenClaw Domestication or Evolution (English)",
-    "version": "1.1",
-    "date": "2026-03",
-    "category": "OpenClaw",
-    "abstract": "This report examines whether OpenClaw should be steered toward controlled domestication or autonomous evolution, framing the issue as a layered governance and capability question. It compares domestication, adaptation, and strategic self-optimization paths, and discusses practical mechanisms including permission governance, safety controls, execution-loop design, and feedback-driven optimization. The report provides an operational lens for designing, deploying, and governing AI-agent systems in real-world organizational settings.",
-    "coverUrl": "https://placehold.co/800x600/660874/FFFFFF/png?text=OpenClaw+1.1",
-    "pdfUrl": "./OpenClaw/OpenClaw Domestication or Evolution (English) v1.1.pdf"
-  },
-  {
-    "id": "openoctopus-a-manufacturing-and-sensor-industry-collaboration-pl",
-    "title": "OpenOctopus: A Manufacturing and Sensor Industry Collaboration Platform",
-    "version": "1.0",
-    "date": "2026-03",
-    "category": "AI Agent",
-    "abstract": "This report introduces OpenOctopus as a collaboration platform for manufacturing and the sensor value chain. It focuses on an end-to-end workflow from requirement clarification to engineering analysis, project delivery, and continuous data accumulation. It also outlines core moats, phased commercialization, and the current market window for industrial AI deployment.",
-    "coverUrl": "https://placehold.co/800x600/660874/FFFFFF/png?text=AI+Agent+1.0",
-    "pdfUrl": "./AI Agent/OpenOctopus Manufacturing and Sensor Industry Collaboration Platform (English).pdf"
-  },
-  {
-    "id": "openclaw-as-a-digital-employee-operating-layer-architecture-gaps",
-    "title": "OpenClaw as a Digital Employee Operating Layer: Architecture, Gaps, and Practical Pathways",
-    "version": "1.0",
-    "date": "2026-03",
-    "category": "OpenClaw",
-    "abstract": "This report repositions OpenClaw from a personal assistant gateway to a lightweight operating layer for digital employees. It analyzes core architecture and execution capabilities (multi-channel ingress, tool invocation, event-driven workflows, cron scheduling, and skill distribution), evaluates key gaps against enterprise-grade control-plane requirements (identity, governance, observability, and orchestration), and proposes a self-hosted, execution-first pathway grounded in practical scenarios such as social monitoring, patent workflows, and in-depth research delivery.",
-    "coverUrl": "https://placehold.co/800x600/660874/FFFFFF/png?text=OpenClaw+1.0",
-    "pdfUrl": "./OpenClaw/OpenClaw and Digital Employee Research Report (English).pdf"
-  },
-  {
-    "id": "token-economics-panorama-report-english-edition-ai-agent-2026-03",
-    "title": "Token Economics Panorama Report (English Edition)",
-    "version": "1.0",
-    "date": "2026-03",
-    "category": "AI Agent",
-    "abstract": "This report presents a panoramic analysis of token economics in the AI era, spanning global compute infrastructure, inference economics, China’s compute industry, labor-market and organizational transformation, capital-market logic, and geopolitical implications. It highlights key trends such as sharply falling inference costs alongside rising total spending, increasing K-shaped polarization, and the growing coupling between compute power and energy systems.",
-    "coverUrl": "https://placehold.co/800x600/660874/FFFFFF/png?text=AI+Agent+1.0",
-    "pdfUrl": "./AI Agent/0319 Token Economics Panorama Report (English).pdf"
-  },
-  {
-    "id": "openclaw-shrimp-farming-panorama-report-english-edition-openclaw",
-    "title": "OpenClaw Shrimp Farming Panorama Report (English Edition)",
-    "version": "1.0",
-    "date": "2026",
-    "category": "OpenClaw",
-    "abstract": "This report provides a panoramic analysis of OpenClaw-enabled shrimp farming, covering industry context, technology stack, operational workflows, key challenges, and practical implementation pathways for scalable and data-driven aquaculture.",
-    "coverUrl": "https://placehold.co/800x600/660874/FFFFFF/png?text=OpenClaw+1.0",
-    "pdfUrl": "./OpenClaw/OpenClaw Shrimp Farming Panorama Report (English).pdf"
-  },
-  {
-    "id": "ai-short-drama-development-report-english-aigc-2026",
-    "title": "AI Short Drama Development Report (English)",
-    "version": "1.0",
-    "date": "2026",
-    "category": "AIGC发展",
-    "abstract": "This report examines the current landscape of AI short drama, maps the end-to-end industry chain, and analyzes production, distribution, and monetization pathways, highlighting key challenges and practical opportunities for deployment.",
-    "coverUrl": "https://placehold.co/800x600/660874/FFFFFF/png?text=AIGC%E5%8F%91%E5%B1%95+1.0",
-    "pdfUrl": "./AIGC发展/AI Short Drama Development Report (English).pdf"
-  },
-  {
-    "id": "global-general-purpose-agent-competition-report-2026-ai-agent-20",
-    "title": "Global General-Purpose Agent Competition Report 2026",
-    "version": "1.0",
-    "date": "2026-03",
-    "category": "AI Agent",
-    "abstract": "本报告围绕《Global General-Purpose Agent Competition Report 2026》展开，聚焦AI Agent相关议题，系统梳理核心进展、关键问题与落地路径，供研究与决策参考。",
-    "coverUrl": "https://placehold.co/800x600/660874/FFFFFF/png?text=AI+Agent+1.0",
-    "pdfUrl": "./AI Agent/Global General-Purpose Agent Competition Report 2026_compressed.pdf"
-  },
-  {
-    "id": "openclaw-3-11-update-report-english-openclaw-2026-03",
-    "title": "OpenClaw 3.11 Update Report (English)",
-    "version": "3.11",
-    "date": "2026-03",
-    "category": "OpenClaw",
-    "abstract": "English update briefing on OpenClaw 3.11, summarizing key improvements, workflow updates, and practical adoption guidance.",
-    "coverUrl": "https://placehold.co/800x600/660874/FFFFFF/png?text=OpenClaw+3.11",
-    "pdfUrl": "./OpenClaw/OpenClaw 3.11 Update Report (English).pdf"
-  },
-  {
-    "id": "openclaw-and-the-intelligent-economy-openclaw-2026-03",
-    "title": "OpenClaw and the Intelligent Economy",
-    "version": "1.0",
-    "date": "2026-03",
-    "category": "OpenClaw",
-    "abstract": "本报告围绕《OpenClaw and the Intelligent Economy》展开，聚焦OpenClaw相关议题，系统梳理核心进展、关键问题与落地路径，供研究与决策参考。",
-    "coverUrl": "https://placehold.co/800x600/660874/FFFFFF/png?text=OpenClaw+1.0",
-    "pdfUrl": "./OpenClaw/OpenClaw_and_the_Intelligent_Economy_compressed.pdf"
-  },
-  {
-    "id": "openclaw-v1",
-    "title": "OpenClaw Strategic Analysis",
-    "version": "1.0",
-    "date": "2026",
-    "category": "OpenClaw",
-    "abstract": "本报告围绕 OpenClaw 的战略定位、市场机会、产品路径与落地策略进行系统分析，面向研究与应用场景提供可执行的判断框架。",
-    "coverUrl": "https://placehold.co/800x600/660874/FFFFFF/png?text=OpenClaw+1.0",
-    "pdfUrl": "./OpenClaw/OpenClaw_Strategic_Analysis_EN.pdf"
-  },
-  {
-    "id": "v3",
-    "title": "AIGC发展研究3.0发布版",
-    "version": "3.0",
-    "date": "2024",
-    "category": "AIGC发展",
-    "abstract": "本报告由清华大学清新研究团队发布，聚焦生成式人工智能（AIGC）的产业发展、技术趋势、社会影响与治理机制。深入辨析AIGC在多元场景中的落地应用与价值创造。",
-    "coverUrl": "https://placehold.co/800x600/660874/FFFFFF/png?text=AIGC+3.0",
-    "pdfUrl": "./第三版/AIGC发展研究3.0发布版C版.pdf"
-  },
-  {
-    "id": "v1",
-    "title": "AIGC发展研究1.0版",
-    "version": "1.0",
-    "date": "2023",
-    "category": "AIGC发展",
-    "abstract": "作为本系列的第一份报告，初步梳理了元宇宙与AIGC的基本概念、内容生态及初步发展的机遇与挑战。",
-    "coverUrl": "https://placehold.co/800x600/660874/FFFFFF/png?text=AIGC+1.0",
-    "pdfUrl": "./第一版/AIGC发展研究1.0版.pdf"
-  }
+    {
+        "id": "ai-agent-management-ai-agent-2026-03",
+        "title": "AI Agent Management",
+        "version": "1.0",
+        "date": "2026-03",
+        "category": "AI Agent",
+        "abstract": "This report reframes AI adoption as an organizational management problem rather than a pure model-capability problem. It proposes an AI-agent management framework centered on controllability, accountability, and stable execution, covering boundaries of management objects, multi-agent complexity, organizational structure, strategic inventory, index systems, unit economics, and infrastructure constraints (compute, data, supervision, and energy). The report argues that long-term competitiveness depends on turning model capability into institutional operating systems, where trusted throughput and governance capacity scale together, and it outlines practical pathways for institutionalization and standardization.",
+        "coverUrl": "https://placehold.co/800x600/660874/FFFFFF/png?text=AI+Agent+1.0",
+        "pdfUrl": "./AI Agent/AI Agent Management (English).pdf"
+    },
+    {
+        "id": "openclaw-domestication-or-evolution-english-openclaw-2026-03-2",
+        "title": "OpenClaw Domestication or Evolution (English)",
+        "version": "1.1",
+        "date": "2026-03",
+        "category": "OpenClaw",
+        "abstract": "This report examines whether OpenClaw should be steered toward controlled domestication or autonomous evolution, framing the issue as a layered governance and capability question. It compares domestication, adaptation, and strategic self-optimization paths, and discusses practical mechanisms including permission governance, safety controls, execution-loop design, and feedback-driven optimization. The report provides an operational lens for designing, deploying, and governing AI-agent systems in real-world organizational settings.",
+        "coverUrl": "https://placehold.co/800x600/660874/FFFFFF/png?text=OpenClaw+1.1",
+        "pdfUrl": "./OpenClaw/OpenClaw Domestication or Evolution (English) v1.1.pdf"
+    },
+    {
+        "id": "openoctopus-a-manufacturing-and-sensor-industry-collaboration-pl",
+        "title": "OpenOctopus: A Manufacturing and Sensor Industry Collaboration Platform",
+        "version": "1.0",
+        "date": "2026-03",
+        "category": "AI Agent",
+        "abstract": "This report introduces OpenOctopus as a collaboration platform for manufacturing and the sensor value chain. It focuses on an end-to-end workflow from requirement clarification to engineering analysis, project delivery, and continuous data accumulation. It also outlines core moats, phased commercialization, and the current market window for industrial AI deployment.",
+        "coverUrl": "https://placehold.co/800x600/660874/FFFFFF/png?text=AI+Agent+1.0",
+        "pdfUrl": "./AI Agent/OpenOctopus Manufacturing and Sensor Industry Collaboration Platform (English).pdf"
+    },
+    {
+        "id": "openclaw-as-a-digital-employee-operating-layer-architecture-gaps",
+        "title": "OpenClaw as a Digital Employee Operating Layer: Architecture, Gaps, and Practical Pathways",
+        "version": "1.0",
+        "date": "2026-03",
+        "category": "OpenClaw",
+        "abstract": "This report repositions OpenClaw from a personal assistant gateway to a lightweight operating layer for digital employees. It analyzes core architecture and execution capabilities (multi-channel ingress, tool invocation, event-driven workflows, cron scheduling, and skill distribution), evaluates key gaps against enterprise-grade control-plane requirements (identity, governance, observability, and orchestration), and proposes a self-hosted, execution-first pathway grounded in practical scenarios such as social monitoring, patent workflows, and in-depth research delivery.",
+        "coverUrl": "https://placehold.co/800x600/660874/FFFFFF/png?text=OpenClaw+1.0",
+        "pdfUrl": "./OpenClaw/OpenClaw and Digital Employee Research Report (English).pdf"
+    },
+    {
+        "id": "token-economics-panorama-report-english-edition-ai-agent-2026-03",
+        "title": "Token Economics Panorama Report (English Edition)",
+        "version": "1.0",
+        "date": "2026-03",
+        "category": "AI Agent",
+        "abstract": "This report presents a panoramic analysis of token economics in the AI era, spanning global compute infrastructure, inference economics, China’s compute industry, labor-market and organizational transformation, capital-market logic, and geopolitical implications. It highlights key trends such as sharply falling inference costs alongside rising total spending, increasing K-shaped polarization, and the growing coupling between compute power and energy systems.",
+        "coverUrl": "https://placehold.co/800x600/660874/FFFFFF/png?text=AI+Agent+1.0",
+        "pdfUrl": "./AI Agent/0319 Token Economics Panorama Report (English).pdf"
+    },
+    {
+        "id": "openclaw-shrimp-farming-panorama-report-english-edition-openclaw",
+        "title": "OpenClaw Shrimp Farming Panorama Report (English Edition)",
+        "version": "1.0",
+        "date": "2026",
+        "category": "OpenClaw",
+        "abstract": "This report provides a panoramic analysis of OpenClaw-enabled shrimp farming, covering industry context, technology stack, operational workflows, key challenges, and practical implementation pathways for scalable and data-driven aquaculture.",
+        "coverUrl": "https://placehold.co/800x600/660874/FFFFFF/png?text=OpenClaw+1.0",
+        "pdfUrl": "./OpenClaw/OpenClaw Shrimp Farming Panorama Report (English).pdf"
+    },
+    {
+        "id": "ai-short-drama-development-report-english-aigc-2026",
+        "title": "AI Short Drama Development Report (English)",
+        "version": "1.0",
+        "date": "2026",
+        "category": "AIGC发展",
+        "abstract": "This report examines the current landscape of AI short drama, maps the end-to-end industry chain, and analyzes production, distribution, and monetization pathways, highlighting key challenges and practical opportunities for deployment.",
+        "coverUrl": "https://placehold.co/800x600/660874/FFFFFF/png?text=AIGC%E5%8F%91%E5%B1%95+1.0",
+        "pdfUrl": "./AIGC发展/AI Short Drama Development Report (English).pdf"
+    },
+    {
+        "id": "global-general-purpose-agent-competition-report-2026-ai-agent-20",
+        "title": "Global General-Purpose Agent Competition Report 2026",
+        "version": "1.0",
+        "date": "2026-03",
+        "category": "AI Agent",
+        "abstract": "本报告围绕《Global General-Purpose Agent Competition Report 2026》展开，聚焦AI Agent相关议题，系统梳理核心进展、关键问题与落地路径，供研究与决策参考。",
+        "coverUrl": "https://placehold.co/800x600/660874/FFFFFF/png?text=AI+Agent+1.0",
+        "pdfUrl": "./AI Agent/Global General-Purpose Agent Competition Report 2026_compressed.pdf"
+    },
+    {
+        "id": "openclaw-3-11-update-report-english-openclaw-2026-03",
+        "title": "OpenClaw 3.11 Update Report (English)",
+        "version": "3.11",
+        "date": "2026-03",
+        "category": "OpenClaw",
+        "abstract": "English update briefing on OpenClaw 3.11, summarizing key improvements, workflow updates, and practical adoption guidance.",
+        "coverUrl": "https://placehold.co/800x600/660874/FFFFFF/png?text=OpenClaw+3.11",
+        "pdfUrl": "./OpenClaw/OpenClaw 3.11 Update Report (English).pdf"
+    },
+    {
+        "id": "openclaw-and-the-intelligent-economy-openclaw-2026-03",
+        "title": "OpenClaw and the Intelligent Economy",
+        "version": "1.0",
+        "date": "2026-03",
+        "category": "OpenClaw",
+        "abstract": "本报告围绕《OpenClaw and the Intelligent Economy》展开，聚焦OpenClaw相关议题，系统梳理核心进展、关键问题与落地路径，供研究与决策参考。",
+        "coverUrl": "https://placehold.co/800x600/660874/FFFFFF/png?text=OpenClaw+1.0",
+        "pdfUrl": "./OpenClaw/OpenClaw_and_the_Intelligent_Economy_compressed.pdf"
+    },
+    {
+        "id": "openclaw-v1",
+        "title": "OpenClaw Strategic Analysis",
+        "version": "1.0",
+        "date": "2026",
+        "category": "OpenClaw",
+        "abstract": "本报告围绕 OpenClaw 的战略定位、市场机会、产品路径与落地策略进行系统分析，面向研究与应用场景提供可执行的判断框架。",
+        "coverUrl": "https://placehold.co/800x600/660874/FFFFFF/png?text=OpenClaw+1.0",
+        "pdfUrl": "./OpenClaw/OpenClaw_Strategic_Analysis_EN.pdf"
+    },
+    {
+        "id": "v3",
+        "title": "AIGC发展研究3.0发布版",
+        "version": "3.0",
+        "date": "2024",
+        "category": "AIGC发展",
+        "abstract": "本报告由清华大学清新研究团队发布，聚焦生成式人工智能（AIGC）的产业发展、技术趋势、社会影响与治理机制。深入辨析AIGC在多元场景中的落地应用与价值创造。",
+        "coverUrl": "https://placehold.co/800x600/660874/FFFFFF/png?text=AIGC+3.0",
+        "pdfUrl": "./第三版/AIGC发展研究3.0发布版C版.pdf"
+    },
+    {
+        "id": "v1",
+        "title": "AIGC发展研究1.0版",
+        "version": "1.0",
+        "date": "2023",
+        "category": "AIGC发展",
+        "abstract": "作为本系列的第一份报告，初步梳理了元宇宙与AIGC的基本概念、内容生态及初步发展的机遇与挑战。",
+        "coverUrl": "https://placehold.co/800x600/660874/FFFFFF/png?text=AIGC+1.0",
+        "pdfUrl": "./第一版/AIGC发展研究1.0版.pdf"
+    }
 ]
