@@ -1,5 +1,15 @@
 [
     {
+        "id": "harness-engineering-report-ai-agent-2026",
+        "title": "Harness Engineering Report",
+        "version": "1.0",
+        "date": "2026",
+        "category": "AI Agent",
+        "abstract": "This report argues that Harness Engineering is an operating-system-layer discipline for highly autonomous and governable AI systems. It organizes the discussion through terminology, evidence, structure, and implementation, and shows a shift from prompt-centric generation to workflow-centric orchestration with tools, multi-step actions, and dynamic path selection. Using software and R&D as the strongest evidence-based starting point, it outlines practical routines across coding, testing, maintenance, and documentation, and concludes that the key scarcity is institutionalizing human judgment into a governable AI production system.",
+        "coverUrl": "https://placehold.co/800x600/660874/FFFFFF/png?text=AI+Agent+1.0",
+        "pdfUrl": "./AI Agent/Harness Engineering Report (English).pdf"
+    },
+    {
         "id": "openclaw-management-openclaw-2026-03",
         "title": "OpenClaw Management",
         "version": "1.0",
