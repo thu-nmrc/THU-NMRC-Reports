@@ -1,5 +1,15 @@
 [
     {
+        "id": "openclaw-swarm-research-report-openclaw-2026-04",
+        "title": "OpenClaw Swarm Research Report",
+        "version": "1.0",
+        "date": "2026-04",
+        "category": "OpenClaw",
+        "abstract": "This report examines OpenClaw swarm collaboration, mapping multi-agent coordination patterns, organizational evolution, and practical implementation paths for research and decision-making.",
+        "coverUrl": "https://placehold.co/800x600/660874/FFFFFF/png?text=OpenClaw+1.0",
+        "pdfUrl": "./OpenClaw/OpenClaw Swarm Research Report (English).pdf"
+    },
+    {
         "id": "claude-code-passive-open-source-incident-in-depth-research-repor",
         "title": "Claude Code Passive Open-Source Incident: In-Depth Research Report",
         "version": "1.0",
