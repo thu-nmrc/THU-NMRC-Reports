@@ -1,5 +1,15 @@
 [
     {
+        "id": "notebooklm-research-report",
+        "title": "NotebookLM Research Report",
+        "version": "1.0",
+        "date": "2026",
+        "category": "AIGC发展",
+        "abstract": "This report examines NotebookLM's product positioning, capability evolution, application scenarios, and competitive outlook, highlighting its core mechanisms, practical value, and deployment implications.",
+        "coverUrl": "https://placehold.co/800x600/660874/FFFFFF/png?text=AIGC%E5%8F%91%E5%B1%95+1.0",
+        "pdfUrl": "./AIGC发展/NotebookLM Research Report (English) web.pdf"
+    },
+    {
         "id": "ai-healthy-aging-deep-research-report-aigc-2026-04",
         "title": "AI Healthy Aging Deep Research Report",
         "version": "1.0",
